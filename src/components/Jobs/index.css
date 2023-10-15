@@ -1,0 +1,163 @@
+.jobs-container {
+  background-color: #000000;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-section {
+  width: 40%;
+}
+
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  padding: 20px;
+  border-radius: 12px;
+  height: 200px;
+  width: 300px;
+}
+
+.name {
+  color: #4f46e5;
+  font-size: 23px;
+}
+
+.name-text {
+  font-size: 14px;
+  color: #7e858e;
+}
+
+.profile-image {
+  width: 50px;
+  height: 50px;
+}
+
+.filters-container {
+  margin-top: 0px;
+}
+
+.filter-head {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.label-text {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.filter-item {
+  margin: 6px;
+}
+
+.ul-container {
+  margin-top: 0px;
+  list-style: none;
+}
+
+.line-sm {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .left-section {
+    width: 100%;
+  }
+
+  .jobs-container {
+    flex-direction: column;
+  }
+
+  .profile-container {
+    width: 100%;
+  }
+  .filters-container-sm {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .filters-container {
+    margin: 30px;
+  }
+
+  .ul-container {
+    margin-left: -40px;
+  }
+
+  .job-items-container {
+    margin-left: -50px;
+  }
+}
+
+.right-section {
+  margin-left: 20px;
+  padding: 20px;
+}
+
+.form-element {
+  background: transparent;
+  border: 1px solid #7e858e;
+  border-radius: 5px;
+  outline: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px;
+  padding-left: 15px;
+}
+
+.input {
+  outline: none;
+  border: none;
+  padding: 6px;
+  background: transparent;
+  color: #ffffff;
+}
+
+.search-button {
+  background-color: #202020;
+  width: 30px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.search-icon {
+  color: #ffffff;
+}
+
+.job-items-container {
+  margin-left: -25px;
+}
+
+.not-found-image {
+  width: 300px;
+  height: 300px;
+}
+
+.not-found-head {
+  color: #ffffff;
+  font-size: 23px;
+  text-align: center;
+}
+
+.not-found-text {
+  color: #64748b;
+  font-size: 12px;
+  text-align: center;
+}
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+}

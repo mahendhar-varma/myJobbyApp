@@ -1,0 +1,30 @@
+.nav-container {
+  background-color: #000000;
+}
+
+.header-container {
+  list-style-type: none;
+  background-color: #202020;
+  padding: 15px;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px;
+}
+
+.link-route {
+  text-decoration: none;
+}
+
+.link-text {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 12px;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: row;
+}
